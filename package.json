@@ -1,0 +1,34 @@
+{
+  "name": "tiny-linked-queue",
+  "version": "1.0.0",
+  "description": "A tiny queue implemented by linked-list",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "index.js",
+    "index.d.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinghua000/tiny-linked-queue.git"
+  },
+  "keywords": [
+    "queue",
+    "linked-list",
+    "tiny"
+  ],
+  "author": "shadow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinghua000/tiny-linked-queue/issues"
+  },
+  "homepage": "https://github.com/jinghua000/tiny-linked-queue#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3"
+  }
+}
