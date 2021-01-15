@@ -1,6 +1,6 @@
 {
   "name": "tiny-linked-queue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tiny queue implemented by linked-list",
   "main": "index.js",
   "types": "index.d.ts",
