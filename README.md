@@ -36,8 +36,8 @@ declare class Queue<ValueType> {
     readonly isEmpty: boolean;
     constructor();
     enqueue(value: ValueType): void;
-	dequeue(): ValueType | undefined;
-	clear(): void;
+    dequeue(): ValueType | undefined;
+    clear(): void;
 }
 
 export = Queue;

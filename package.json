@@ -1,6 +1,6 @@
 {
   "name": "tiny-linked-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny queue implemented by linked-list",
   "main": "index.js",
   "types": "index.d.ts",
@@ -9,7 +9,7 @@
   },
   "files": [
     "index.js",
-    "index.d.js"
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
