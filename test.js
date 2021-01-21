@@ -50,3 +50,28 @@ test('isEmpty', () => {
 
     expect(q.isEmpty).toBe(false)
 })
+
+test('head', () => {
+    const q = new Queue()
+    expect(q.head).toBe(undefined)
+
+    q.enqueue('foo')
+    q.enqueue('bar')
+    q.enqueue('baz')
+
+    expect(q.head).toBe('foo')
+    q.dequeue()
+    expect(q.head).toBe('bar')
+})
+
+test('tail', () => {
+    const q = new Queue()
+    expect(q.tail).toBe(undefined)
+
+    q.enqueue('foo')
+    expect(q.tail).toBe('foo')
+    q.enqueue('bar')
+    expect(q.tail).toBe('bar')
+    q.dequeue()
+    expect(q.tail).toBe('bar')
+})
