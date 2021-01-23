@@ -15,11 +15,11 @@ class Queue {
 
     enqueue(value) {
         if (this.isEmpty) {
-            this.head = new Node(value)
-            this.tail = this.head
+            this._head = new Node(value)
+            this._tail = this._head
         } else {
-            this.tail.next = new Node(value)
-            this.tail = this.tail.next
+            this._tail.next = new Node(value)
+            this._tail = this._tail.next
         }
 
         this._size++
@@ -30,9 +30,9 @@ class Queue {
             return 
         }
 
-        const result = this.head.value
+        const result = this._head.value
 
-        this.head = this.head.next
+        this._head = this._head.next
         this._size--
 
         return result
@@ -40,8 +40,16 @@ class Queue {
 
     clear() {
         this._size = 0
-        this.head = undefined
-        this.tail = undefined
+        this._head = undefined
+        this._tail = undefined
+    }
+
+    get head() {
+        return this._head && this._head.value
+    }
+
+    get tail() {
+        return this._tail && this._tail.value
     }
 
     get isEmpty() {
