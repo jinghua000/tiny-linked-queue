@@ -1,6 +1,6 @@
 declare class Queue<ValueType> {
     /**
-     * size of queue.
+     * size of the queue.
      */
     readonly size: number;
     /**
@@ -8,11 +8,11 @@ declare class Queue<ValueType> {
      */
     readonly isEmpty: boolean;
     /**
-     * return the first element of queue.
+     * return the first element of the queue.
      */
     readonly head: ValueType | undefined;
     /**
-     * return the last element of queue.
+     * return the last element of the queue.
      */
     readonly tail: ValueType | undefined;
     /**
