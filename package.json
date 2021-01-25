@@ -21,7 +21,7 @@
     "tiny"
   ],
   "author": "shadow",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jinghua000/tiny-linked-queue/issues"
   },
